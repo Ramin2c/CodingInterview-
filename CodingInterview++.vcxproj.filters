@@ -33,6 +33,9 @@
     <ClInclude Include="Q0101_isAllUnique.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Q0102_isPermutation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +45,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Q0101_isAllUnique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Q0102_isPermutation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

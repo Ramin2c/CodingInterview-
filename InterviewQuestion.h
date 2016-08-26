@@ -7,5 +7,4 @@ namespace CodingInterview
 	public:
 		virtual void Run() = 0;
 	};
-
 }

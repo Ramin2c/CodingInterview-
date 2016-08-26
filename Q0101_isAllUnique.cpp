@@ -30,7 +30,7 @@ bool CodingInterview::Q0101_isAllUnique::isAllUnique(std::string input)
 {
 	std::cout << "Checking string " << input << " :\n";
 	bool chars[255] = { 0 };
-	for(char& c : input)
+	for(char c : input)
 	{
 		int index = (int)c - 32;
 		if (chars[index] == true)
